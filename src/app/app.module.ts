@@ -54,9 +54,7 @@ import {CdkMenuModule} from '@angular/cdk/menu';
 import {DialogModule} from '@angular/cdk/dialog';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { PruebaComponent } from './componentes/prueba/prueba.component';
-import { AcuarioComponent } from './componentes/acuario/acuario.component';
 
-import { CapricornioComponent } from './componentes/capricornio/capricornio.component';
 
 import { LibraComponent } from './componentes/libra/libra.component';
 
@@ -71,8 +69,7 @@ import {HttpClientModule} from '@angular/common/http';
     AppComponent,
     HoroscoposMensualComponent,
     PruebaComponent,
-    AcuarioComponent,
-    CapricornioComponent,
+
     LibraComponent,
 
   ],
