@@ -4,7 +4,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { HoroscoposMensualComponent } from './componentes/horoscopos-mensual/horoscopos-mensual.component';
+
 import {MatExpansionModule} from '@angular/material/expansion';
 import {MatTabsModule} from '@angular/material/tabs';
 import {MatDatepickerModule} from '@angular/material/datepicker';
@@ -56,7 +56,6 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { PruebaComponent } from './componentes/prueba/prueba.component';
 
 
-import { LibraComponent } from './componentes/libra/libra.component';
 
 
 
@@ -67,10 +66,10 @@ import {HttpClientModule} from '@angular/common/http';
 @NgModule({
   declarations: [
     AppComponent,
-    HoroscoposMensualComponent,
+
     PruebaComponent,
 
-    LibraComponent,
+
 
   ],
   imports: [
